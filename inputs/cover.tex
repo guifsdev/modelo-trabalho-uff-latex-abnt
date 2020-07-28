@@ -1,7 +1,12 @@
 %capa modelo uff
-\begin{tikzpicture}[remember picture, overlay]
+\begin{tikzpicture}[remember picture, 
+  overlay, 
+  rotate=-3.3, 
+  scale=1.3,
+  transform shape]
     \node[inner sep=0pt] at (current page.center) {
-        \includegraphics[width=\paperwidth]{resources/uff-cover.pdf}
+      \hspace*{-1.4cm}
+      \includegraphics[scale=1]{resources/uff-cover.pdf}
     };
 \end{tikzpicture}
 \imprimircapa

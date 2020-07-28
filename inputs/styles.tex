@@ -1,3 +1,17 @@
-\renewcommand{\ABNTEXsectionfont}{\fontfamily{cmr}\fontseries{b}\selectfont} % Computer Modern Regular
+\usepackage{times}
+\renewcommand{\ABNTEXsectionfont}{\fontfamily{cmr}\fontseries{b}\selectfont}
 \renewcommand{\ABNTEXsectionfontsize}{\Large}
 \titlespacing{\section}{0pt}{5pt}{10pt}
+\setlrmarginsandblock{3cm}{2cm}{*}
+\setulmarginsandblock{3cm}{2cm}{*}
+\checkandfixthelayout
+\setlength{\parskip}{12pt}
+\renewcommand{\baselinestretch}{1.5}
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancyplain}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+
