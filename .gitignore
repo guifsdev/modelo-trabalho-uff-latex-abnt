@@ -1,1 +1,8 @@
-*.[bbl|fls|log|swp|fdb_latexmk|lua|out]
+*.bbl
+*.fls
+*.log
+*.swp
+*.swo
+*.fdb_latexmk
+*.lua
+*.out
